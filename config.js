@@ -23,8 +23,8 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            yesBtn: "Yes!",                                             // Text for "Yes" button
+            noBtn: "No..",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you hehe! ❤️"           // Secret hover message
         },
         second: {
@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "Yay! I really am luckiest person in the world! hehe 💓",
         message: "Now come get your gift: a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "🎁🤗💝💋💕"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -79,8 +79,8 @@ const CONFIG = {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dp7v1uzix/video/upload/v1769938996/PUBLIC_-_Make_You_Mine_Official_Lyric_Video_yskddg.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
+        startText: "🎵 Play",        // Button text to start music
+        stopText: "🔇 Stop",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
